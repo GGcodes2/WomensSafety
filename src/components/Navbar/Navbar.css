@@ -1,0 +1,60 @@
+/* src/components/Navbar.css */
+
+/* General Navbar Styling */
+.navbar {
+  background: linear-gradient(to right, #1d4ed8, #3b82f6, #6366f1);
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+}
+
+.navbar-links {
+  margin: auto;
+  display: flex;
+  gap: 24px;
+}
+
+.navbar-link {
+  font-size: 1.125rem;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-link:hover {
+  background-color: #3b82f6;
+  transform: scale(1.05);
+}
+
+.navbar-link.active {
+  background-color: #2563eb;
+}
+
+.navbar-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-btn:hover {
+  background-color: #1e40af;
+}

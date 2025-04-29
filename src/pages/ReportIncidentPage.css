@@ -1,0 +1,70 @@
+/* src/pages/ReportIncidentPage.css */
+
+/* Container */
+.report-incident-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  .report-incident-title {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    color: #1e40af;
+    margin-bottom: 24px;
+  }
+  
+  /* Form Fields */
+  label {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #4b5563;
+    margin-bottom: 8px;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 8px;
+    box-sizing: border-box;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3b82f6;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 24px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+  }
+  

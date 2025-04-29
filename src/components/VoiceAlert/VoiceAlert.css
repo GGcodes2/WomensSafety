@@ -1,0 +1,16 @@
+.voice-alert-button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .voice-alert-button:hover {
+    background-color: #d81b60;
+  }
+  
